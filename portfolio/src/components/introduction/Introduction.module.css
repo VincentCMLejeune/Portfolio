@@ -1,5 +1,16 @@
 @import "../../Fonts.css";
 
 .introduction {
-  color: var(--dark-gray);
+  color: var(--lighter-gray);
+  background-color: var(--dark-gray);
+  padding: 0.5em 1.5em;
+  margin-top: 1.5em;
+}
+
+.introduction a {
+  color: var(--light-red);
+}
+
+.introduction a:hover {
+  color: var(--red);
 }
