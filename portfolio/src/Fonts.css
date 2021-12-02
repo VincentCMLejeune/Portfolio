@@ -1,0 +1,13 @@
+:root {
+  --font-family: "Inter", sans-serif;
+  --black: #0b090a;
+  --dark-gray: #161a1d;
+  --darker-red: #660708;
+  --dark-red: #a4161a;
+  --red: #ba181b;
+  --light-red: #e5383b;
+  --gray: #b1a7a6;
+  --light-gray: #d3d3d3;
+  --lighter-gray: #f5f3f4;
+  --white: #ffffff;
+}
