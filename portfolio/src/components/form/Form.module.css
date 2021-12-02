@@ -3,3 +3,52 @@
 .form {
   color: var(--red);
 }
+
+#test {
+  color: yellow;
+}
+
+#spin {
+  color: var(--red);
+}
+#spin:after {
+  content: "Travaillons";
+  animation: spin 5s linear;
+  animation-iteration-count: 2;
+}
+
+@keyframes spin {
+  0% {
+    content: "Travaillons";
+  }
+  10% {
+    content: "Echangeons";
+  }
+  20% {
+    content: "Imaginons";
+  }
+  30% {
+    content: "Partageons";
+  }
+  40% {
+    content: "Concevons";
+  }
+  50% {
+    content: "Discutons";
+  }
+  60% {
+    content: "Rêvons";
+  }
+  70% {
+    content: "Composons";
+  }
+  80% {
+    content: "Développons";
+  }
+  90% {
+    content: "Inventons";
+  }
+  100% {
+    content: "Travaillons";
+  }
+}
