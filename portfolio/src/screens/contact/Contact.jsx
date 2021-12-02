@@ -1,12 +1,12 @@
-import Header from "../../components/header/Header"
+import Header from "../../components/header/Header";
 
-import styles from "./Contact.module.css"
+import styles from "./Contact.module.css";
 
 export default function Contact() {
-    return (
-        <div>
-            <Header />
-            <h2 className={styles.contact}>Contact</h2>
-        </div>
-    )
+  return (
+    <div className={styles.contact}>
+      <Header />
+      <h2>Contact</h2>
+    </div>
+  );
 }

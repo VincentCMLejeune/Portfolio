@@ -5,6 +5,9 @@
   background-color: var(--black);
   display: flex;
   justify-content: space-between;
+  position: fixed;
+  width: 100vw;
+  top: 0;
 }
 
 .name {
@@ -36,6 +39,7 @@
 
 .links {
   display: flex;
+  margin-right: 4em;
 }
 
 .link {

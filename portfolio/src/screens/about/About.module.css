@@ -1,3 +1,9 @@
 .about {
-  color: blue;
+  margin-top: 4.5em;
 }
+
+.ultrabigdiv {
+  width: 50vw;
+  height: 250vh;
+}
+

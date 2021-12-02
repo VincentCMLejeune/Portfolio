@@ -1,12 +1,12 @@
-import Header from "../../components/header/Header"
+import Header from "../../components/header/Header";
 
-import styles from "./Projets.module.css"
+import styles from "./Projets.module.css";
 
 export default function Projets() {
-    return (
-        <div>
-            <Header />
-            <h2 className={styles.projets}>Projets</h2>
-        </div>
-    )
+  return (
+    <div className={styles.projets}>
+      <Header />
+      <h2>Projets</h2>
+    </div>
+  );
 }

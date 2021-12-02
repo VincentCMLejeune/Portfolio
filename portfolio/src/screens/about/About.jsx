@@ -1,12 +1,13 @@
-import Header from "../../components/header/Header"
+import Header from "../../components/header/Header";
 
-import styles from "./About.module.css"
+import styles from "./About.module.css";
 
 export default function About() {
-    return (
-        <div>
-            <Header />
-            <h2 className={styles.about}>About</h2>
-        </div>
-    )
+  return (
+    <div className={styles.about}>
+      <Header />
+      <h2>About</h2>
+      <div className={styles.ultrabigdiv}>Hello</div>
+    </div>
+  );
 }
