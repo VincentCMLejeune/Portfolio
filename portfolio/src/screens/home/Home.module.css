@@ -16,14 +16,14 @@
 }
 
 .profile {
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    animation-name: profileTransition;
-    animation-duration: 3s;
-    animation-timing-function: ease-out;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  animation-name: profileTransition;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
 }
 
 .linksContainer {
@@ -50,7 +50,7 @@
 }
 
 .linkHover {
-  color: var(--light-red);
+  color: var(--red);
   margin-left: 1.5em;
   animation-name: rightscroll;
   animation-duration: 0.5s;
@@ -95,10 +95,10 @@
 }
 
 @keyframes profileTransition {
-    from {
-        right: -300vw;
-    }
-    to {
-        right: 0;
-    }
+  from {
+    right: -300vw;
+  }
+  to {
+    right: 0;
+  }
 }
