@@ -1,3 +1,4 @@
+import Form from "../../components/form/Form";
 import Header from "../../components/header/Header";
 
 import styles from "./Contact.module.css";
@@ -7,6 +8,7 @@ export default function Contact() {
     <div className={styles.contact}>
       <Header />
       <h2>Contact</h2>
+      <Form />
     </div>
   );
 }
