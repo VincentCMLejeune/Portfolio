@@ -1,3 +1,11 @@
 .projets {
   margin-top: 6em;
 }
+
+.projectsContainer {
+  display: flex;
+  width: 100vw;
+  flex-wrap: wrap;
+  height: 50em;
+  justify-content: space-around;
+}
