@@ -6,7 +6,7 @@
   padding: 0.5em 1.5em;
   margin: 1.5em auto;
   width: 64rem;
-  height: 29em;
+  height: 30em;
 }
 
 form {
@@ -33,12 +33,13 @@ label {
 
 .coordonnees input {
   font-size: 0.8em;
+  margin-top: 0.2em;
 }
 
 .message input {
   height: 14em;
   font-size: 0.8em;
-  vertical-align: top;
+  margin-top: 0.2em;
 }
 
 button {
