@@ -1,9 +1,46 @@
 .about {
-  margin-top: 4.5em;
+  margin-top: 6em;
 }
 
-.ultrabigdiv {
-  width: 50vw;
-  height: 250vh;
+.introductionContainer {
+  width: 35em;
+  height: 5em;
+  background: var(--black);
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
+.introduction h2 {
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: 2em;
+  width: 9em;
+  background: var(--black);
+  overflow: hidden;
+  border-right: 0.15em solid var(--white);
+  white-space: nowrap;
+  margin: 1em auto;
+  letter-spacing: 0.177em;
+  animation: typing 2s steps(13, end), blink-caret 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 9em;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: var(--white);
+  }
+}
