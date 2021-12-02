@@ -8,6 +8,7 @@
   transition: 1s ease-in-out;
   transform-style: preserve-3d;
   width: 30em;
+  margin: 0 5em;
 }
 
 .flipCardInner {
@@ -26,15 +27,11 @@
 .flipCardFront,
 .flipCardBack {
   backface-visibility: hidden;
-  border-radius: 20px;
+  border-radius: 10px;
   height: 100%;
   position: absolute;
   width: 100%;
   -webkit-backface-visibility: hidden;
-}
-
-.flipCardFront {
-  background-color: var(--light-red);
 }
 
 .flipCardBack {
