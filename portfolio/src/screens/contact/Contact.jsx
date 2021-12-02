@@ -12,7 +12,6 @@ export default function Contact() {
         </h2>
       </div>
       <Header />
-      <h2>Contact</h2>
       <Form />
     </div>
   );
