@@ -12,7 +12,9 @@ export default function Projets() {
   return (
     <div className={styles.projets}>
       <Header />
-      <h2>Projets</h2>
+      <div className={styles.titleContainer}>
+        <h2 className={styles.projectsTitle}>Projets</h2>
+      </div>
       <div className={styles.projectsContainer}>
         <ProjectCard
           title="Bagarre Club"

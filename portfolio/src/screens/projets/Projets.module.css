@@ -4,8 +4,28 @@
 
 .projectsContainer {
   display: flex;
-  width: 100vw;
+  width: 90vw;
   flex-wrap: wrap;
-  height: 50em;
+  margin: 0 auto;
+  height: 45em;
   justify-content: space-around;
+}
+
+.titleContainer {
+  width: 35em;
+  height: 5em;
+  background: var(--black);
+  display: flex;
+  margin: 0 auto 1.5em auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectsTitle {
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: 2em;
+  background: var(--black);
+  margin: 1em auto;
+  letter-spacing: 0.177em;
 }
