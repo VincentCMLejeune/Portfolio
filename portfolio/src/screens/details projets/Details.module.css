@@ -1,0 +1,10 @@
+@import "../../Fonts.css";
+
+.container {
+    margin-top: 6em;
+}
+
+.title {
+  font-family: var(--font-family);
+  color: var(--red);
+}

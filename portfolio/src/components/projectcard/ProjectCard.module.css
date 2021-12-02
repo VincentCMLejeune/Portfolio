@@ -1,0 +1,14 @@
+@import "../../Fonts.css";
+
+.projectCard {
+  color: var(--red);
+  height: 20em;
+  width: 30em;
+  background: var(--light-gray);
+  cursor: pointer;
+}
+
+.cardImg {
+  height: 10em;
+  width: auto;
+}
