@@ -1,6 +1,8 @@
 .about {
-  margin: 6em auto 0 auto;
-  width: 64rem;
+  margin: 1.5em auto 0 auto;
+  width: 64rem;  
+  background-color: var(--dark-gray);
+  padding: 0.5em 1.5em;
 }
 
 .introductionContainer {
@@ -8,7 +10,7 @@
   height: 5em;
   background: var(--black);
   display: flex;
-  margin: 0 auto;
+  margin: 6em auto 0 auto;
   justify-content: center;
   align-items: center;
 }

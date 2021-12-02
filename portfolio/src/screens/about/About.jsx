@@ -7,12 +7,12 @@ export default function About() {
   return (
     <>
       <Header />
-      <div className={styles.about}>
-        <div className={styles.introductionContainer}>
-          <div className={styles.introduction}>
-            <h2>A propos</h2>
-          </div>
+      <div className={styles.introductionContainer}>
+        <div className={styles.introduction}>
+          <h2>A propos</h2>
         </div>
+      </div>
+      <div className={styles.about}>
         <Introduction />
         <h2>Mes outils</h2>
       </div>
