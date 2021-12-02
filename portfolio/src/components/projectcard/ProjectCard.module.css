@@ -2,23 +2,21 @@
 
 .flipCard {
   background-color: transparent;
-  display: flex;
-  height: 60vw;
-  margin: 2vw;
+  height: 20em;
   perspective: 1000px;
   position: relative;
   transition: 1s ease-in-out;
   transform-style: preserve-3d;
-  width: 40vw;
+  width: 30em;
 }
 
 .flipCardInner {
   height: 100%;
+  width: 100%;
   position: relative;
   text-align: center;
   transition: transform 0.8s;
   transform-style: preserve-3d;
-  width: 100%;
 }
 
 .flipCard:hover .flipCardInner {
@@ -35,31 +33,14 @@
   -webkit-backface-visibility: hidden;
 }
 
+.flipCardFront {
+  background-color: var(--light-red);
+}
+
 .flipCardBack {
-  align-items: center;
-  background-color: var(--dark-gray);
+  background-color: var(--light-gray);
   direction: rtl;
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
   unicode-bidi: bidi-override;
   transform: rotateY(180deg);
-}
-.flipCardBack h2 {
-  font-size: 20px;
-  margin: 0 20px;
-}
-.flipCardBack p {
-  font-size: 12px;
-  margin: 0 20px;
-}
-.flipCardImage {
-  border-radius: 20px;
-  height: 10em;
-  width: 100%;
-}
-
-.flipCardLogo {
-  height: auto;
-  width: 20px;
 }

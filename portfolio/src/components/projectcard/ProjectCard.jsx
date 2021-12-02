@@ -7,12 +7,13 @@ export default function ProjectCard(props) {
     <Link to={props.link} style={{ textDecoration: "none" }}>
       <div className={styles.flipCard}>
         <div className={styles.flipCardInner}>
-          <div className={styles.flipCardFront}>
-            <img
-              className={styles.flipCardImage}
-              src={props.img}
-              alt={props.title}
-            />
+          <div
+            className={styles.flipCardFront}
+            style={{
+              background: `url(${props.img}) no-repeat center center fixed`,
+              backgroundSize: "cover",
+            }}
+          >
           </div>
           <div className={styles.flipCardBack}>
             <h2>{props.title}</h2>
