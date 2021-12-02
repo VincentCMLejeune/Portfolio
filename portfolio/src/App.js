@@ -5,7 +5,7 @@ import Contact from "./screens/contact/Contact";
 import Projets from "./screens/projets/Projets";
 import Home from "./screens/home/Home";
 
-import styles from "./App.module.css";
+// import styles from "./App.module.css";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projets />} />
+          <Route path="/projets" element={<Projets />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
