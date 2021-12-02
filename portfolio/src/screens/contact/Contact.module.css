@@ -1,3 +1,67 @@
 .contact {
-  margin-top: 4.5em;
+  margin-top: 6em;
+}
+
+.introContainer {
+  width: 35em;
+  height: 5em;
+  background: var(--black);
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.introContainer h2 {
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: 2em;
+  background: var(--black);
+  margin: 1em auto;
+  letter-spacing: 0.177em;
+}
+
+#spin {
+  color: var(--red);
+}
+#spin:after {
+  content: "Travaillons";
+  animation: spin 5s linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes spin {
+  0% {
+    content: "Travaillons";
+  }
+  10% {
+    content: "Echangeons";
+  }
+  20% {
+    content: "Imaginons";
+  }
+  30% {
+    content: "Partageons";
+  }
+  40% {
+    content: "Concevons";
+  }
+  50% {
+    content: "Discutons";
+  }
+  60% {
+    content: "Rêvons";
+  }
+  70% {
+    content: "Composons";
+  }
+  80% {
+    content: "Développons";
+  }
+  90% {
+    content: "Inventons";
+  }
+  100% {
+    content: "Travaillons";
+  }
 }
