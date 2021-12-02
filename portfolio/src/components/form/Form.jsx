@@ -7,28 +7,32 @@ export default function Form() {
         action="https://formsubmit.co/9ca83417d36bcbc1302960454647c72c"
         method="POST"
       >
-        <label>
-          Nom (facultatif)
-          <input type="text" name="name" placeholder="Sarah" />
-        </label>
-        <label>
-          Mail
-          <input
-            type="email"
-            name="email"
-            placeholder="sarah.connor@skynet.com"
-            required
-          />
-        </label>
-        <label>
-          Message
-          <input
-            type="text"
-            name="message"
-            placeholder="Votre message"
-            required
-          />
-        </label>
+        <div className={styles.coordonnees}>
+          <label>
+            Nom (facultatif)
+            <input type="name" name="name" placeholder="Sarah" />
+          </label>
+          <label>
+            Mail
+            <input
+              type="email"
+              name="email"
+              placeholder="sarah.connor@skynet.com"
+              required
+            />
+          </label>
+        </div>
+        <div className={styles.message}>
+          <label>
+            Message
+            <input
+              type="text"
+              name="message"
+              placeholder="Votre message"
+              required
+            />
+          </label>
+        </div>
         <button type="submit">Envoyer</button>
       </form>
     </div>
