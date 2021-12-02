@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className={styles.header}>
       <Link to="/" style={{ textDecoration: "none" }}>
-        <div className={styles.name}>Vincent Lejeune</div>
+        <div className={styles.name}>VINCENT LEJEUNE</div>
       </Link>
       <div className={styles.links}>
         <Link to="/about" style={{ textDecoration: "none" }}>
