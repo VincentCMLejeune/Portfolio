@@ -1,0 +1,37 @@
+@import "../../Fonts.css";
+
+.sideBar {
+  height: 18em;
+  width: 18em;
+  position: fixed;
+  left: 0;
+  top: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sideBar img {
+  height: 4em;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  width: 18em;
+  margin-left: -21em;
+  background-color: var(--red);
+  transition: 0.5s;
+}
+
+.link h2 {
+  margin-left: 0.5em;
+  font-family: var(--font-family);
+  color: var(--black);
+}
+
+.link:hover {
+  margin-left: 0;
+  transition: 0.5s;
+}
