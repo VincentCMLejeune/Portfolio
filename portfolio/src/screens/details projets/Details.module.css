@@ -1,10 +1,119 @@
 @import "../../Fonts.css";
 
-.container {
-    margin-top: 6em;
+.titleContainer {
+  width: 35em;
+  height: 5em;
+  background: var(--black);
+  display: flex;
+  margin: 6em auto 1.5em auto;
+  justify-content: center;
+  align-items: center;
 }
 
-.title {
+.projectsTitle {
+  color: var(--white);
+  font-family: var(--font-family);
+  font-size: 2em;
+  background: var(--black);
+  margin: 1em auto;
+  letter-spacing: 0.177em;
+}
+
+.apercus {
+  display: flex;
+  justify-content: space-around;
+  width: 55rem;
+  margin: 1.5em auto;
+}
+
+.apercus img {
+  height: 25em;
+}
+
+.apercusLarge {
+  display: flex;
+  justify-content: space-around;
+  width: 74rem;
+  margin: 1.5em auto;
+  background-color: var(--gray);
+  padding: 1.5em 0;
+  flex-wrap: wrap;
+}
+
+.apercusLarge img {
+  height: 25em;
+}
+
+.container {
+  margin: 1.5em auto;
+  width: 64rem;
+  background-color: var(--dark-gray);
+  padding: 1.5em;
+  font-family: var(--font-family);
+  color: var(--lighter-gray);
+}
+
+.outilsContainer img {
+  margin-right: 0.5em;
+}
+
+.dependenciesList li {
+  list-style-type: none;
+  margin: 0.2em auto;
+  color: var(--light-red);
+}
+
+.dependenciesList a {
+  text-decoration: none;
+}
+
+.dependenciesList li:hover {
+  color: var(--red);
+}
+
+.ohterProjects {
+  width: 74rem;
+  background-color: var(--black);
+  margin: 0 auto;
+  padding: 1.5em 3em;
+  border-radius: 10px;
+}
+
+.ohterProjects h3 {
   font-family: var(--font-family);
   color: var(--red);
+  font-size: 1.5em;
+  text-align: right;
+  margin: 0;
+  font-weight: 500;
+}
+
+.otherProjectsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5em auto;
+}
+
+.otherProjectsContainer img {
+  height: 20em;
+  transition: all 0.2s ease-in-out;
+}
+
+.otherProjectsContainer img:hover {
+  transform: scale(1.1);
+}
+
+.callToAction {
+  width: 25em;
+  background-color: var(--dark-gray);
+  margin: 1.5em auto;
+  display: flex;
+  justify-content: center;
+  padding: 1.5em;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.callToAction img {
+  width: 25em;
 }
