@@ -21,7 +21,7 @@
   justify-content: space-between;
   width: 18em;
   margin-left: -21em;
-  background-color: var(--red);
+  background-color: var(--light-red);
   transition: 0.5s;
 }
 
