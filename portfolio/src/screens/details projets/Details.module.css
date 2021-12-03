@@ -53,12 +53,24 @@
   color: var(--lighter-gray);
 }
 
+.container a {
+  color: var(--red);
+}
+
+.container a:hover {
+  color: var(--light-red);
+}
+
 .outilsContainer img {
   margin-right: 0.5em;
 }
 
+.dependenciesIntro {
+  margin-bottom: -0.5em;
+  color: var(--red);
+}
+
 .dependenciesList li {
-  list-style-type: none;
   margin: 0.2em auto;
   color: var(--light-red);
 }
