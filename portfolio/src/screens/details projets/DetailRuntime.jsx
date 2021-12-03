@@ -1,28 +1,49 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Header from "../../components/header/Header";
+import Sidebar from "../../components/sidebar/Sidebar";
+
+import ContactScreen from "../../assets/contactscreen.png";
+import ContactScreenHover from "../../assets/contactscreenhover.png";
+
+import s1 from "../../assets/runtime screens/1.png";
+import s2 from "../../assets/runtime screens/2.png";
+import s3 from "../../assets/runtime screens/3.png";
+
+import Advisor from "../../assets/advisorscreen.png";
+import Garou from "../../assets/garouscreendesk.png";
+import Bagarre from "../../assets/bagarrescreen.png";
 
 import styles from "./Details.module.css";
 
 export default function DetailRuntime() {
+  const [hoverContact, setHoverContact] = useState(false);
   return (
     <div>
       <Header />
+      <Sidebar />
+
       <div className={styles.titleContainer}>
         <h2 className={styles.projectsTitle}>Runtime Terror</h2>
       </div>
+
+      <div className={styles.apercus}>
+        <img src={s1} alt="Screenshot" />
+      </div>
+
       <div className={styles.container}>
-        <div className={styles.resume}></div>
-        <h3 className={styles.subtitle}>Objectifs</h3>
-        <div className={styles.projectIntro}>
-          Projet de hackathon sur le thème de la musique. On a imaginé un jeu de
-          rythme. Gros défi !
-        </div>
+        <h3>Objectifs</h3>
+        <p>
+          Projet de Hackathon de 24 heures sur le thème de la musique. On a
+          décidé de faire un jeu de rythme, joué depuis la webcam.
+        </p>
+
         <h3>Outils</h3>
         <div className={styles.outilsContainer}>
           <img
-            src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"
-            alt="Html"
+            src="https://img.shields.io/badge/react%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"
+            alt="react"
           />
           <img
             src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"
@@ -33,44 +54,111 @@ export default function DetailRuntime() {
             alt="Javascript"
           />
           <img
+            src="https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white"
+            alt="npm"
+          />
+          <img
+            src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"
+            alt="Node"
+          />
+          <img
             src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"
             alt="GitHub"
           />
-          <img
-            src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"
-            alt="Discord"
-          />
-          <ul className={styles.dependenciesList}>
-            <a
-              href="https://www.npmjs.com/package/react-router-dom"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <li>React-router-dom</li>
-            </a>
-            <li>React-webcam</li>
-          </ul>
         </div>
+        <h3 className={styles.dependenciesIntro}>Dependances</h3>
+        <ul className={styles.dependenciesList}>
+          <a
+            href="https://google.github.io/mediapipe/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <li>MediaPipe</li>
+          </a>
+          <a
+            href="https://www.npmjs.com/package/axios"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <li>Axios</li>
+          </a>
+          <a
+            href="https://www.npmjs.com/package/react-router"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <li>React-router</li>
+          </a>
+          <a
+            href="https://www.npmjs.com/package/react-router-dom"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <li>React-router-dom</li>
+          </a>
+          <a
+            href="https://www.npmjs.com/package/react-webcam"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <li>React-webcam</li>
+          </a>
+        </ul>
+      </div>
+
+      <div className={styles.apercusLarge}>
+        <img src={s2} alt="Screenshot" />
+      </div>
+
+      <div className={styles.container}>
         <h3>Défis et problèmes rencontrés</h3>
         <h4>Le manque de temps</h4>
         <p>
-          Quelque part c'était utile, cela nous a appris à
-          chercher des Frameworks (ne pas gaspiller du temps) et à aller à
-          l'essentiel
+          Quelque part c'était utile, cela nous a appris à chercher des
+          Frameworks (ne pas gaspiller du temps) et à aller à l'essentiel
         </p>
-        <div className={styles.projectText}>Responsive web design</div>
-        <h3 className={styles.subtitle}>Leçons</h3>
-        <div className={styles.projectText}>
-          Appris à mieux travailler en équipe et à avoir une vision globale d'un
-          projet, et à travailler en groupe. Mobile first
+      </div>
+
+      <div className={styles.apercusLarge}>
+        <img src={s3} alt="Screenshot" />
+      </div>
+
+      <div className={styles.container}>
+        <h3>Leçons</h3>
+        <h4>Done is better than perfect</h4>
+        <p>
+          Nous avons gagné le Hackathon, en partie parce que nos certains
+          concurrents, qui avaient de très bonnes idées et de très bons talents,
+          etc. ont rencontré des problèmes au moment de la présentation.
+        </p>
+      </div>
+
+      <div className={styles.ohterProjects}>
+        <h3>Mes autres projets</h3>
+        <div className={styles.otherProjectsContainer}>
+          <Link to="/projets/advisor">
+            <img src={Advisor} alt="Wild Advisor" />
+          </Link>
+          <Link to="/projets/garou">
+            <img src={Garou} alt="Garou" />
+          </Link>
+          <Link to="/projets/bagarre">
+            <img src={Bagarre} alt="Bagarre club" />
+          </Link>
         </div>
       </div>
-      <h3>Mes autres projets</h3>
-      <div className={styles.otherProjects}>
-        <Link to=""></Link>
-      </div>
-      <div className={styles.callToAction}>
-        <h3>Lançons notre prochain projet ensemble</h3>
+      <div
+        className={styles.callToAction}
+        onMouseOver={() => setHoverContact(true)}
+        onMouseLeave={() => setHoverContact(false)}
+      >
+        <Link to="/contact">
+          {hoverContact ? (
+            <img src={ContactScreen} alt="Computer" />
+          ) : (
+            <img src={ContactScreenHover} alt="Computer" />
+          )}
+        </Link>
       </div>
     </div>
   );
