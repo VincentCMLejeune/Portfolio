@@ -43,14 +43,13 @@ export default function DetailGarou() {
           >
             Loups-Garous de Thiercelieux
           </a>{" "}
-          sont parmi mes jeux préférés. Mais mon jeu de cartes étant chez mes
-          parents, j'ai saisi l'occasion de faire un projet entièrement
+          figurent parmi mes jeux préférés. Mon jeu de cartes étant resté chez
+          mes parents, j'ai saisi ce prétexte de faire un projet entièrement
           personnel. Cette application accueille l'utilisateur en demandant le
-          nombre de villageois, garous et quels personnages spéciaux sont
-          souhaités (voyante, sorcière, etc.). En retour, et après avoir
-          enregistré les noms des joueurs, il distribue aléatoirement les
-          cartes, qui peuvent être retournées, révélant au public la véritable
-          identité du joueur !
+          nombre de villageois, garous et spéciaux souhaités (voyante, sorcière,
+          etc.). En retour, et après avoir enregistré les noms des joueurs, il
+          distribue aléatoirement les cartes, qui peuvent être retournées,
+          révélant au public la véritable identité du joueur !
         </p>
 
         <h3>Outils</h3>
@@ -90,13 +89,14 @@ export default function DetailGarou() {
         <h3>Défis et problèmes rencontrés</h3>
         <h4>Organiser un formulaire</h4>
         <p>
-          Noter les noms et distribuer des cartes. Simple sur le papier,
-          n'est-ce pas ? Mais le coder m'a procuré bien des défis (empêcher deux
-          noms identiques, distribuer aléatoirement les cartes).
+          Noter les noms et distribuer des cartes. Simple sur le papier, mais le
+          code m'a procuré bien des défis (empêcher deux noms identiques,
+          distribuer aléatoirement les cartes, enregistrer les données
+          formulaire et le réinitialiser pour une nouvelle partie).
         </p>
         <h4>Hébergement en ligne</h4>
         <p>
-          Ce projet est toujours en cours de développement. Mon but est de
+          Ce projet est toujours en cours de développement. Mon objectif est de
           permettre d'héberger des parties en ligne, avec pour chaque joueur des
           droits différents (il ne s'agit pas d'autoriser tout le monde à
           retourner les cartes des autres !).
@@ -111,12 +111,11 @@ export default function DetailGarou() {
         <h3>Leçons</h3>
         <h4>L'expérience utilisateur d'abord</h4>
         <p>
-          Ce site doit donner envie de lancer une partie de loup garou. Problème
-          : tout le monde n'a pas le même rapport à ce jeu, mes deux user
-          stories principales étant le joueur chevronné, qui connaît les règles
-          par coeur, et le nouveau venu qui a besoin d'être guidé. Il faut faire
-          cohabiter les deux ensemble, tout en rendant le site le plus
-          visuellement agréable possible.
+          Ce site doit donner envie de lancer une partie de loup garou. Mais
+          tout le monde n'y entretient pas le même rapport à ce jeu, et
+          l'application doit faire cohabiter joueurs chevronnés et débutants.
+          Concrètement, j'ai rendu l'interface la plus légère possible, tout en
+          permettant de se référer aux (nombreuses) règles du jeu à tout moment.
         </p>
       </div>
 
