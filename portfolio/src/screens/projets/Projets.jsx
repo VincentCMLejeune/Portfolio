@@ -1,9 +1,9 @@
 import Header from "../../components/header/Header";
 import ProjectCard from "../../components/projectcard/ProjectCard";
 
-import AdvisorPic from "../../assets/advisor.png";
+import AdvisorPic from "../../assets/advisor screens/6.png";
 import BagarrePic from "../../assets/bagarre.png";
-import GarouPic from "../../assets/garou.png";
+import GarouPic from "../../assets/garou screens/6.png";
 import RuntimePic from "../../assets/runtime.png";
 
 import styles from "./Projets.module.css";
