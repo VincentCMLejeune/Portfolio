@@ -90,12 +90,12 @@ button::before {
 }
 
 .outro {
-  color: var(--red);
+  color: var(--light-red);
   font-family: var(--font-family);
 }
 
 .outro a {
-  color: var(--lighter-gray);
+  color: var(--light-gray);
 }
 
 .outro a:hover {
