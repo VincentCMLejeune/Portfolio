@@ -35,8 +35,18 @@ export default function DetailRuntime() {
       <div className={styles.container}>
         <h3>Objectifs</h3>
         <p>
-          Projet de Hackathon de 24 heures sur le thème de la musique. On a
-          décidé de faire un jeu de rythme, joué depuis la webcam.
+          Pour mon premier Hackathon de 24 heures sur le thème de la musique,
+          notre groupe a développé un jeu de rythme, joué depuis la webcam. Ce
+          projet a remporté ce Hackathon organisé entre les campus français de
+          la{" "}
+          <a
+            href="https://www.wildcodeschool.com/fr-FR"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Wild Code School
+          </a>
+          .
         </p>
 
         <h3>Outils</h3>
@@ -114,8 +124,14 @@ export default function DetailRuntime() {
         <h3>Défis et problèmes rencontrés</h3>
         <h4>Le manque de temps</h4>
         <p>
-          Quelque part c'était utile, cela nous a appris à chercher des
-          Frameworks (ne pas gaspiller du temps) et à aller à l'essentiel
+          Développé à partir de{" "}
+          <a href="https://vitejs.dev/" target="_blank" rel="noreferrer">
+            Vite
+          </a>
+          , il nous a fallu tout faire... vite. Les bugs n'étaient pas
+          insurmontables, mais chacun nous faisait perdre un temps précieux. Ce
+          projet a été utile en nous apprenant à chercher des Frameworks qui
+          nous feraient gagner du temps et à aller à l'essentiel.
         </p>
       </div>
 
@@ -127,9 +143,12 @@ export default function DetailRuntime() {
         <h3>Leçons</h3>
         <h4>Done is better than perfect</h4>
         <p>
-          Nous avons gagné le Hackathon, en partie parce que nos certains
-          concurrents, qui avaient de très bonnes idées et de très bons talents,
-          etc. ont rencontré des problèmes au moment de la présentation.
+          Nous avons gagné le Hackathon en partie parce que certains de nos
+          concurrents, qui avaient de très bonnes idées et une application très
+          bonne, ont rencontré des problèmes au moment de la présentation. Notre
+          équipe voulait mettre dans Runtime Terror bien plus que ce que nous
+          avons fait en 24 heures, mais nous avons réussi à nous discipliner
+          pour soumettre un projet qui fonctionnait.
         </p>
       </div>
 
