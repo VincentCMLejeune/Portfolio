@@ -51,6 +51,7 @@
   padding: 1.5em;
   font-family: var(--font-family);
   color: var(--lighter-gray);
+  text-align: justify;
 }
 
 .container a {
