@@ -34,6 +34,17 @@ export default function Form() {
           </label>
         </div>
         <button type="submit">Envoyer</button>
+        <p className={styles.outro}>
+          Vous pouvez aussi me contacter{" "}
+          <a href="mailto:vincentcmlejeune@gmail.com">par mail</a> ou via{" "}
+          <a
+            href="https://www.linkedin.com/in/vincent-lejeune-285834221/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn.
+          </a>
+        </p>
       </form>
     </div>
   );

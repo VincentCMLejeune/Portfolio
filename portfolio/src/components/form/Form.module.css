@@ -6,7 +6,7 @@
   padding: 0.5em 1.5em;
   margin: 1.5em auto;
   width: 64rem;
-  height: 30em;
+  height: 32em;
 }
 
 form {
@@ -54,26 +54,26 @@ button {
   cursor: pointer;
   font-weight: 600;
   text-align: center;
-  border-radius: 10rem;
+  border-radius: 15px;
   transition: all 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
 }
 button::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-color: var(--lighter-gray);
-  border-radius: 10rem;
+  border-radius: 15px;
   z-index: -2;
 }
 
 button::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -81,10 +81,23 @@ button::before {
   height: 100%;
   background-color: var(--red);
   transition: all 0.3s;
-  border-radius: 10rem;
+  border-radius: 15px;
   z-index: -1;
 }
 
 :hover::before {
   width: 100%;
+}
+
+.outro {
+  color: var(--red);
+  font-family: var(--font-family);
+}
+
+.outro a {
+  color: var(--lighter-gray);
+}
+
+.outro a:hover {
+  color: var(--white);
 }
