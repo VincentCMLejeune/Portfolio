@@ -45,7 +45,7 @@
   font-family: var(--font-family);
 }
 
-h2 {
+.cardTitle {
   color: var(--white);
   font-size: 32px;
 }
