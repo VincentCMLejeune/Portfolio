@@ -31,7 +31,7 @@ export default function Projets() {
         <ProjectCard
           title="Loup Garou"
           img={GarouPic}
-          description="Un générateur de parties du jeu de carte"
+          description="Un générateur de parties du jeu de cartes"
           link="/projets/garou"
         />
         <ProjectCard
