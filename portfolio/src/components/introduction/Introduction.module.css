@@ -4,7 +4,10 @@
   color: var(--lighter-gray);
   background-color: var(--dark-gray);
   padding: 0.5em 1.5em;
-  margin-top: 1.5em;
+  margin: 1.5em auto;
+  font-family: var(--font-family);
+  text-align: justify;
+  font-size: 18px;
 }
 
 .introduction a {
