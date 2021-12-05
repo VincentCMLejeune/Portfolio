@@ -11,6 +11,9 @@ import Advisor from "../../assets/advisorscreen.png";
 import Garou from "../../assets/garouscreen.png";
 import Runtime from "../../assets/runtimescreen.png";
 
+import Github from "../../assets/logos/github.svg";
+import Browser from "../../assets/logos/link.svg";
+
 import s4 from "../../assets/bagarre screens/4.png";
 import s5 from "../../assets/bagarre screens/5.png";
 import s12 from "../../assets/bagarre screens/12.png";
@@ -36,6 +39,29 @@ export default function DetailBagarre() {
       <div className={styles.apercus}>
         <img src={s18} alt="Screenshot" />
         <img src={s4} alt="Screenshot" />
+      </div>
+
+      <div className={styles.links}>
+        <a
+          href="https://bagarreclub.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className={styles.link}>
+            <img src={Browser} alt="browser" />
+            <p>Déploiement</p>
+          </div>
+        </a>
+        <a
+          href="https://github.com/VincentCMLejeune/paris-0921-p2-groupe2"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className={styles.link}>
+            <img src={Github} alt="Github" />
+            <p>Code</p>
+          </div>
+        </a>
       </div>
 
       <div className={styles.container}>
