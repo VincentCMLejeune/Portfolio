@@ -44,9 +44,9 @@ export default function DetailAdvisor() {
           Au début de notre scolarité, les profs avaient partagé un tableau des
           meilleures adresses où manger et boire aux alentours. Pour mon premier
           projet de groupe, notre équipe a voulu faire de ce tableau une
-          véritable application. Clone de Trip Advisor, il regroupe toutes les
-          bonnes adresses, de les filtrer à travers un moteur de recherche et
-          d'enregistrer ses adresses préférées.
+          véritable application. Clone de Trip Advisor, elle regroupe toutes ces
+          adresses et permet de les filtrer à travers un moteur de recherche et
+          d'enregistrer nos préférées.
         </p>
 
         <h3>Outils</h3>
@@ -83,17 +83,17 @@ export default function DetailAdvisor() {
         <h3>Défis et problèmes rencontrés</h3>
         <h4>Un projet adapté à tous les écrans</h4>
         <p>
-          Vous ne voyez pas la même chose à l'écran que moi, tout comme celui
-          qui verra ce site depuis une tablette, un portable, son écran
-          secondaire... verront tous des choses différentes. Faire un site qui
-          reste stable et présentable quel que soit la taille de l'écran fut le
-          plus gros défit.
+          Vous ne voyez pas exactement le même site à l'écran que moi ou celui
+          qui le consultera depuis une tablette, un portable... Faire un site
+          qui reste stable et présentable quel que soitl'écran était
+          le principal défi.
         </p>
         <h4>Premier projet à l'huile de coude</h4>
         <p>
           Pas de Frameworks ni de librairies : il nous a fallu tout faire avec
-          du HTML/CSS/Javascript. La génération de cartes a été particulièrement
-          difficile (tout en manipulation de DOM, sans l'aide de React).
+          du HTML/CSS/Javascript natif. La génération de cartes a été
+          particulièrement difficile (tout en manipulation de DOM, sans l'aide
+          de React que je découvrirai juste après).
         </p>
       </div>
 
@@ -107,17 +107,25 @@ export default function DetailAdvisor() {
         <h3>Leçons</h3>
         <h4>"Les portables d'abord" (Mobile First)</h4>
         <p>
-          Aujourd'hui, on ne peut plus faire l'impasse sur les écrans de
-          téléphone. Or, c'est plus simple de développer une application qui
-          tienne d'abord sur un téléphone, avant d'en faire une version pour
-          ordinateur.
+          Aujourd'hui,{" "}
+          <a
+            href="https://gs.statcounter.com/platform-market-share/desktop-mobile-tablet"
+            target="_blank"
+            rel="noreferrer"
+          >
+            on navigue plus sur Internet par portable que par ordinateur
+          </a>
+          . Ce projet m'a appris à penser d'abord à construire une version
+          mobile d'une application. En outre, c'est plus facile d'élaborer une
+          version ordinateur à partir d'une version mobile que l'inverse en
+          termes de place.
         </p>
         <h4>Travail d'équipe</h4>
         <p>
-          Le premier véritable projet de groupe sur un GitHub commun, qui m'a
-          appris à s'organiser, se répartir les tâches... rester sur ses propres
-          fonctionnalités, rendre des comptes. Eviter les conflits (aussi bien
-          de code que de personnalités!).
+          Ce fut mon premier véritable projet de groupe sur un GitHub commun,
+          qui m'a appris à nous organiser, nous répartir les tâches, mais aussi
+          rester sur nos propres fonctionnalités et rendre des comptes
+          (impossible de s'éparpiller comme pour un projet personnel !).
         </p>
       </div>
 
