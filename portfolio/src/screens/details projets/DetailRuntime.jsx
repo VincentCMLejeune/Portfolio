@@ -11,7 +11,6 @@ import Github from "../../assets/logos/github.svg";
 
 import s1 from "../../assets/runtime screens/1.png";
 import s2 from "../../assets/runtime screens/2.png";
-import s3 from "../../assets/runtime screens/3.png";
 
 import Advisor from "../../assets/advisorscreen.png";
 import Garou from "../../assets/garouscreendesk.png";
@@ -148,13 +147,6 @@ export default function DetailRuntime() {
           projet a été utile en nous apprenant à chercher des Frameworks qui
           nous feraient gagner du temps et à aller à l'essentiel.
         </p>
-      </div>
-
-      <div className={styles.apercusLarge}>
-        <img src={s3} alt="Screenshot" />
-      </div>
-
-      <div className={styles.container}>
         <h3>Leçons</h3>
         <h4>Done is better than perfect</h4>
         <p>

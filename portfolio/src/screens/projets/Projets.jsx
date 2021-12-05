@@ -4,7 +4,7 @@ import ProjectCard from "../../components/projectcard/ProjectCard";
 import AdvisorPic from "../../assets/advisor screens/6.png";
 import BagarrePic from "../../assets/bagarre.png";
 import GarouPic from "../../assets/garou screens/6.png";
-import RuntimePic from "../../assets/runtime.png";
+import RuntimePic from "../../assets/runtime screens/1.png";
 
 import styles from "./Projets.module.css";
 
