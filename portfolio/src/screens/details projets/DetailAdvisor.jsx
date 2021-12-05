@@ -11,6 +11,9 @@ import Bagarre from "../../assets/bagarrescreen.png";
 import Garou from "../../assets/garouscreen.png";
 import Runtime from "../../assets/runtimescreen.png";
 
+import Github from "../../assets/logos/github.svg";
+import Browser from "../../assets/logos/link.svg";
+
 import s1 from "../../assets/advisor screens/1.png";
 import s2 from "../../assets/advisor screens/2.png";
 import s10 from "../../assets/advisor screens/10.png";
@@ -36,6 +39,29 @@ export default function DetailAdvisor() {
       <div className={styles.apercus}>
         <img src={s2} alt="Screenshot" />
         <img src={s10} alt="Screenshot" />
+      </div>
+
+      <div className={styles.links}>
+        <a
+          href="https://vincentcmlejeune.github.io/Wild-advisor/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className={styles.link}>
+            <img src={Browser} alt="browser" />
+            <p>Déploiement</p>
+          </div>
+        </a>
+        <a
+          href="https://github.com/VincentCMLejeune/Wild-advisor"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className={styles.link}>
+            <img src={Github} alt="Github" />
+            <p>Code</p>
+          </div>
+        </a>
       </div>
 
       <div className={styles.container}>
@@ -85,8 +111,8 @@ export default function DetailAdvisor() {
         <p>
           Vous ne voyez pas exactement le même site à l'écran que moi ou celui
           qui le consultera depuis une tablette, un portable... Faire un site
-          qui reste stable et présentable quel que soitl'écran était
-          le principal défi.
+          qui reste stable et présentable quel que soitl'écran était le
+          principal défi.
         </p>
         <h4>Premier projet à l'huile de coude</h4>
         <p>
