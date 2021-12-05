@@ -13,11 +13,11 @@ export default function ProjectCard(props) {
               background: `url(${props.img}) no-repeat center center fixed`,
               backgroundSize: "cover",
             }}
-          >
-          </div>
+          ></div>
           <div className={styles.flipCardBack}>
             <h2>{props.title}</h2>
-            <p>{props.description}</p>
+            <p className={styles.subtitle}>{props.description}</p>
+            <p className={styles.prompt}>Cliquez pour en savoir plus</p>
           </div>
         </div>
       </div>
