@@ -11,6 +11,8 @@ import Advisor from "../../assets/advisorscreen.png";
 import Bagarre from "../../assets/bagarrescreen.png";
 import Runtime from "../../assets/runtimescreen.png";
 
+import Github from "../../assets/logos/github.svg";
+
 import s1 from "../../assets/garou screens/1.png";
 import s4 from "../../assets/garou screens/4.png";
 import s6 from "../../assets/garou screens/6.png";
@@ -30,6 +32,19 @@ export default function DetailGarou() {
 
       <div className={styles.apercus}>
         <img src={s4} alt="Screenshot" />
+      </div>
+
+      <div className={styles.links} id={styles.alone}>
+        <a
+          href="https://github.com/VincentCMLejeune/garou-cards-generator"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className={styles.link}>
+            <img src={Github} alt="Github" />
+            <p>Code</p>
+          </div>
+        </a>
       </div>
 
       <div className={styles.container}>
