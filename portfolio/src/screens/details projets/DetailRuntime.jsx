@@ -7,6 +7,8 @@ import Sidebar from "../../components/sidebar/Sidebar";
 import ContactScreen from "../../assets/contactscreen.png";
 import ContactScreenHover from "../../assets/contactscreenhover.png";
 
+import Github from "../../assets/logos/github.svg";
+
 import s1 from "../../assets/runtime screens/1.png";
 import s2 from "../../assets/runtime screens/2.png";
 import s3 from "../../assets/runtime screens/3.png";
@@ -30,6 +32,19 @@ export default function DetailRuntime() {
 
       <div className={styles.apercus}>
         <img src={s1} alt="Screenshot" />
+      </div>
+
+      <div className={styles.links} id={styles.alone}>
+        <a
+          href="https://github.com/VincentCMLejeune/RuntimeTerror"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className={styles.link}>
+            <img src={Github} alt="Github" />
+            <p>Code</p>
+          </div>
+        </a>
       </div>
 
       <div className={styles.container}>
