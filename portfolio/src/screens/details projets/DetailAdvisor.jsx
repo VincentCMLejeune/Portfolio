@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import Header from "../../components/header/Header";
@@ -26,6 +26,10 @@ import styles from "./Details.module.css";
 
 export default function DetailAdvisor() {
   const [hoverContact, setHoverContact] = useState(false);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div>
