@@ -41,13 +41,13 @@ export default function DetailBagarre() {
       <div className={styles.container}>
         <h3>Objectifs</h3>
         <p>
-          Dans ce second travail de groupe, nous avions trouvé une base de
+          Dans ce second projet de groupe, nous nous sommes servis d'une base de
           données de 731 héros de tous univers (Marvel, DC, Star Wars, Seigneur
-          des Anneaux, etc.) avec une description détaillée. Sur cette base nous
-          avons fait ce simulateur de combats entre adversaire de notre choix,
-          indivudellement ou par équipe, avec handicaps et armes. Le but est de
-          s'amuser en se demandant qui gagnerait dans un combat à mort entre
-          Dark Vador et Sauron.
+          des Anneaux, etc.) avec une description détaillée (biographie,
+          statistiques et image d'illustration principalement). Nous en avons
+          fait ce simulateur de combats (indivudels ou par équipe), avec
+          handicaps et armes. Le but était de s'amuser à voir qui de Dark Vador
+          ou Sauron sortirait vainqueur d'un combat à mort.
         </p>
 
         <h3>Outils</h3>
@@ -118,9 +118,9 @@ export default function DetailBagarre() {
 
       <div className={styles.container}>
         <h3>Défis et problèmes rencontrés</h3>
-        <h4>Algorithme</h4>
+        <h4>Un simulateur réaliste</h4>
         <p>
-          Je suis passionné d'algorithme. Mon temps passé sur{" "}
+          Je suis passionné d'algorithme, comme mon temps passé sur{" "}
           <a
             href="https://www.codewars.com/users/VincentCMLejeune"
             target="_blank"
@@ -128,19 +128,21 @@ export default function DetailBagarre() {
           >
             Codewars
           </a>{" "}
-          et mes projets peuvent en témoigner. Ce projet fut l'occasion de
-          générer des combats les plus immersifs possibles, en utilisant les
-          caractéristiques disponibles (force, puissance, vitesse, combat,
-          durabilité) et de créer un simulateur qui se comporte le plus possible
-          comme un jeu de rôle. Un projet passionnant, mais qui a connu son lot
-          de bugs et de lignes de code à relire !
+          peut en témoigner. Ce projet était l'occasion de générer les combats
+          les plus immersifs possibles, en utilisant les caractéristiques
+          disponibles (force, puissance, vitesse, combat, durabilité) et de
+          générer un combat qui se comporte le plus possible comme un jeu de
+          rôle. Une tâche passionnante, mais qui a connu son lot de bugs et de
+          lignes de code à relire !
         </p>
         <h4>Linter</h4>
         <p>
-          Rendre son code lisible, accessible. Contrainte du Linter pour se
-          forcer à rédiger un code propre, lisible, qui ne fasse aucun export
-          inutile, respect el workflow, nettoyer les console.log, commentaires
-          et tout ce qui peut alourdir.
+          Nous nous sommes servis du package ESLint qui interdit de "commiter"
+          du code qui ne soit pas parfaitement propre et lisible. Ca a été une
+          grosse école de discipline, qui m'a appris à rendre le code le plus
+          léger et le plus clair possible (par d'imports inutiles, et nettoyer
+          tous console.log impertinents ou "dead code" avant de passer en
+          production).
         </p>
       </div>
 
@@ -155,9 +157,7 @@ export default function DetailBagarre() {
         <h4>Organiser son code...</h4>
         <p>
           Ce fut mon premier projet d'ampleur sur React, et il m'a appris à
-          organiser les composants, les structurer, ainsi que les props à passer
-          : quand passer des propriétés d'un composant à l'autre, quand se
-          servir d'un contexte global.
+          organiser les composants et les propriétés qui circulent entre eux.
         </p>
         <h4>... et son projet</h4>
         <p>
@@ -171,7 +171,9 @@ export default function DetailBagarre() {
             Jira
           </a>
           . Dans le cadre d'un projet contraint par le temps, elle m'a
-          discipliné sur le "must have"/"should have"/"could have".
+          discipliné sur le fait de bien distinguer "must have"/"should
+          have"/"could have" et de suivre très régulièrement la progression du
+          projet.
         </p>
       </div>
 
