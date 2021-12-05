@@ -41,12 +41,12 @@ export default function DetailAdvisor() {
       <div className={styles.container}>
         <h3>Objectifs</h3>
         <p>
-          Au début de notre scolarité, on avait lancé un tableau en ligne pour
-          regrouper les meilleures adresses où manger et boire autour de
-          l'école. Pour mon tout premier projet, notre équipe a voulu faire de
-          ce tableau brut une véritable application. Clone de Trip Advisor, il
-          nous permettrait de regrouper toutes les bonnes adresses, de les
-          filtrer et d'enregistrer les endroits préférés.
+          Au début de notre scolarité, les profs avaient partagé un tableau des
+          meilleures adresses où manger et boire aux alentours. Pour mon premier
+          projet de groupe, notre équipe a voulu faire de ce tableau une
+          véritable application. Clone de Trip Advisor, il regroupe toutes les
+          bonnes adresses, de les filtrer à travers un moteur de recherche et
+          d'enregistrer ses adresses préférées.
         </p>
 
         <h3>Outils</h3>
