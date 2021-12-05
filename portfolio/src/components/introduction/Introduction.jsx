@@ -5,7 +5,7 @@ import CV from "../../assets/CVVincentLEJEUNE.pdf";
 export default function Introduction() {
   return (
     <div className={styles.introduction}>
-      <h3>A propos de moi</h3>
+      <h3>Hello world !</h3>
       <p>
         Au début, je rêvais de devenir ambassadeur ou préfet. Après un parcours
         très académique (Sciences Po, Ecole Normale Supérieure) et 4 tentatives
