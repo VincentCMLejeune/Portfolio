@@ -19,25 +19,25 @@ export default function Projets() {
         <ProjectCard
           title="Bagarre Club"
           img={BagarrePic}
-          description="Une appli de combat"
+          description="Un simulateur de combat entre 731 superhéros"
           link="/projets/bagarre"
+        />
+        <ProjectCard
+          title="Runtime Terror"
+          img={RuntimePic}
+          description="Un jeu de rythme avec la webcam [Hackathon]"
+          link="/projets/runtime"
         />
         <ProjectCard
           title="Loup Garou"
           img={GarouPic}
-          description="Un générateur de cartes"
+          description="Un générateur de parties du jeu de carte"
           link="/projets/garou"
-        />
-        <ProjectCard
-          title="RunTime Terror"
-          img={RuntimePic}
-          description="Un jeu de rythme avec la webcam"
-          link="/projets/runtime"
         />
         <ProjectCard
           title="Wild Advisor"
           img={AdvisorPic}
-          description="Un guide cullinaire autour de l'école"
+          description="Un guide des bons plans autour de l'école"
           link="/projets/advisor"
         />
       </div>
