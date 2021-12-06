@@ -2,12 +2,12 @@
 
 .flipCard {
   background-color: transparent;
-  height: 20em;
+  height: 320px;
   perspective: 1000px;
   position: relative;
   transition: 1s ease-in-out;
   transform-style: preserve-3d;
-  width: 32em;
+  width: 520px;
   margin: 0 5em;
 }
 
@@ -32,6 +32,10 @@
   position: absolute;
   width: 100%;
   -webkit-backface-visibility: hidden;
+}
+
+.flipCardFront img {
+  border-radius: 10px;
 }
 
 .flipCardBack {
