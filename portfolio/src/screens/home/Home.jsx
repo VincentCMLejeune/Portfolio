@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
-// import profile from "../../assets/temp.png";
+import profile from "../../assets/profile.png";
 
 import styles from "./Home.module.css";
 
@@ -65,7 +65,7 @@ export default function Home() {
           )}
         </Link>
       </div>
-      {/* <img className={styles.profile} src={profile} alt="Profile" /> */}
+      <img className={styles.profile} src={profile} alt="Profile" />
     </div>
   );
 }
